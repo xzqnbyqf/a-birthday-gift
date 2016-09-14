@@ -1,0 +1,159 @@
+.puzzle {
+    width: 302px;
+}
+
+    .puzzle .btn-group {
+        margin-bottom: 10px;
+    }
+
+    .puzzle .pieces {
+        border: 1px solid #ccc;
+        height: 302px;
+    }
+
+        .puzzle .pieces .piece {
+            display: inline-block;
+            height: 100px;
+            text-align: center;
+            width: 100px;
+            vertical-align: top;
+        }
+
+            .puzzle .pieces .piece.empty {
+                background: #fff;
+            }
+
+            .puzzle .pieces .piece > img {
+                width: 100%;
+            }
+
+body {
+    background: url(../image/bodybg.jpg);
+}
+
+.login_bg {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 273px;
+    padding: 0;
+    width: 640px;
+    height: 400px;
+    line-height: 100%;
+}
+
+.login_table {
+    position: relative;
+    top: 0px;
+    left: 110px;
+    font-size: 18px;
+}
+
+.login_btn_submit {
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    float: left;
+    padding: 0;
+    border-width: 0;
+    background: url(../image/login_btn.png);
+    cursor: pointer;
+}
+
+    .login_btn_submit:hover {
+        width: 70px;
+        height: 70px;
+        margin: 0;
+        float: left;
+        padding: 0;
+        border-width: 0;
+        background: url(../image/login_btn_hover.png);
+        cursor: pointer;
+    }
+
+.user_td {
+    height: 35px;
+    background: url(../image/menuTitle.png) 0 8px no-repeat;
+    padding-left: 20px;
+    color: rgb(48,48,48);
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.user_input {
+    width: 155px;
+    height: 18px;
+    border: solid 1px #7e9db9;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.pwd_td {
+    height: 35px;
+    background: url(../image/key.png) 0 8px no-repeat;
+    padding-left: 20px;
+    color: rgb(48,48,48);
+    font-weight: bold;
+}
+
+.user_pwd {
+    width: 155px;
+    height: 18px;
+    border: solid 1px #7e9db9;
+    font-size: 28px;
+    padding-left: 5px;
+    line-height: 18px;
+    font-weight: bolder;
+}
+
+.user_pwd_container {
+    width: 155px;
+    height: 18px;
+    border: solid 1px #7e9db9;
+    font-size: 18px;
+    padding-left: 5px;
+    position: absolute;
+    opacity: 0;
+}
+
+.user_check {
+    margin: 2px;
+    padding: 0;
+    border: 0px;
+    width: 14px;
+}
+
+.check_text {
+    color: rgb(48,48,48);
+    font-family: Î¢ÈíÑÅºÚ;
+    font-weight: 600;
+}
+
+.oa_login_check {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    width: 14px;
+}
+
+
+.title_bg {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 840px;
+}
+
+.illumi {
+    line-height: 160px;
+    background: url(../image/illumi.png) 40px 0 no-repeat;
+    font-size: x-large;
+    padding-left: 150px;
+    font-family: Mincho;
+}
+
+.hiso {
+    line-height: 120px;
+    background: url(../image/hiso.png) 0 0 no-repeat;
+    font-size: x-large;
+    padding-left: 120px;
+}
